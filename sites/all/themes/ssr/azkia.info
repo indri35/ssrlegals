@@ -1,0 +1,37 @@
+name = Azkia
+description = Uses the jsDelivr CDN for all CSS and JavaScript. No source files or compiling is necessary and is recommended for simple sites or beginners.
+core = 7.x
+base theme = bootstrap
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[navigation]     = 'Navigation'
+regions[logo]			= "Website Logo"
+regions[header]         = 'Top Bar'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[slideshow]		= 'Slideshow'
+regions[banner_psb]		= 'Banner for PSD'
+regions[about_school]	= 'About School'
+regions[footer]         = 'Footer'
+regions[footer_content] = 'Footer Content'
+regions[footer_md1] 	= 'Footer Content MD-1'
+regions[footer_md2] 	= 'Footer Content MD-2'
+regions[footer_md3] 	= 'Footer Content MD-3'
+regions[footer_md4] 	= 'Footer Content MD-4'
+regions[footer_bottom]  = 'Footer Bottom'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = css/style.css

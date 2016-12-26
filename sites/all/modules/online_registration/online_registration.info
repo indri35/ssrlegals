@@ -1,0 +1,5 @@
+core = "7.x"
+description = "A module used to register new students"
+name = "Azkia Online Registration"
+
+dependencies[] = date
