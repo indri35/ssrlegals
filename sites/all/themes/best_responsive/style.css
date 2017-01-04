@@ -318,7 +318,7 @@ a:focus {
 ================================================== */
 
 /*pre-header*/
-#pre-header { margin: 20px 0 15px; }
+#pre-header { margin: 20px 0 12px; }
 #header-social{
   float: right;
   margin: 0;
@@ -349,7 +349,7 @@ a:focus {
 
 #site-logo {
   float: left;
-  padding: 25px 0 20px 10px;
+  padding: 5px 0 8px 5px;
 }
 
 /*logo*/
