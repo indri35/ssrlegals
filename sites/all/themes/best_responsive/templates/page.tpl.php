@@ -71,15 +71,15 @@
     $twitter_url = check_plain(theme_get_setting('twitter_url', 'best_responsive')); 
     $facebook_url = check_plain(theme_get_setting('facebook_url', 'best_responsive')); 
     $google_plus_url = check_plain(theme_get_setting('google_plus_url', 'best_responsive')); 
-    $linkedin_url = check_plain(theme_get_setting('pinterest_url', 'best_responsive'));
+    $linkedin_url = check_plain(theme_get_setting('linkedin_url', 'best_responsive'));
     ?>
-    <div id="logo">
+    <div id="pre-header" class="clearfix">
+    <ul id="logo">
         <?php if ($logo): ?><div id="site-logo"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
           <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
         </a></div><?php endif; ?>
-    </div>
-    <div id="pre-header" class="clearfix">
-      <ul id="header-social" class="clearfix">
+    </ul>
+	<ul id="header-social" class="clearfix">
         <?php if ($facebook_url): ?><li>
           <a target="_blank" title="<?php print $site_name; ?> in Facebook" href="<?php print $facebook_url; ?>"><img alt="Facebook" src="<?php print base_path() . drupal_get_path('theme', 'best_responsive') . '/images/social/facebook.png'; ?>"> </a>
         </li><?php endif; ?>
@@ -98,7 +98,6 @@
     <header id="header" class="clearfix">
       <div id="logo">
         <?php if ($logo): ?><div id="site-logo"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-          <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
         </a></div<?php endif; ?>
       </div>
       <nav id="navigation" role="navigation">
@@ -128,6 +127,7 @@
             <li class="slide"><img src="<?php print base_path() . drupal_get_path('theme', 'best_responsive') . '/images/slide-image-2.jpg'; ?>" alt="Slide"/></li>
             <li class="slide"><img src="<?php print base_path() . drupal_get_path('theme', 'best_responsive') . '/images/slide-image-3.jpg'; ?>" alt="Slide"/></li>
             <li class="slide"><img src="<?php print base_path() . drupal_get_path('theme', 'best_responsive') . '/images/slide-image-4.jpg'; ?>" alt="Slide"/></li>
+            <li class="slide"><img src="<?php print base_path() . drupal_get_path('theme', 'best_responsive') . '/images/slide-image-5.jpg'; ?>" alt="Slide"/></li>
           </ul><!-- /slides -->
         </div><!-- /flexslider -->
       </div>
